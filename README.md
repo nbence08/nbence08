@@ -1,12 +1,12 @@
-#include \<memory>   
-#include "GithubRef"  
-#include "EmailAddr"  
+#include <memory>
+#include <vector>
+#include <string>
+#include "GithubRef.h"
+#include "EmailAddr.h"
 
 //👋    
-Hi(); auto I = std::make_shared\<GithubRef>("@nbence08");  
+Hi(); auto I = std::make_shared<GithubRef>("@nbence08");  
 //👀    
-auto interests = {"OpenGL", "C++", "Java", "Graphical Programming", "IT Security"};   
-//🌱    
-auto currentlyLearning = interests[3];  
+std::vector<std::string> interests = {"OpenGL", "C++", "Java", "Graphical Programming", "IT Security"};   
 //📫    
-EmailAddr howToReachMe("nbence08@gmail.com"); 
+EmailAddr howToReachMe("nbence08@gmail.com");
