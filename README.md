@@ -11,6 +11,6 @@
 //👋    
 Hi(); auto I = std::make_shared<GithubRef>("@nbence08");  
 //👀    
-std::vector<std::string> interests = {"OpenGL", "C++", "Java", "Graphical Programming", "IT Security"};   
+std::vector\<std::string\> interests = {"OpenGL", "C++", "Java", "Graphical Programming", "IT Security"};   
 //📫    
 EmailAddr howToReachMe("nbence08@gmail.com");
