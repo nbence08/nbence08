@@ -9,7 +9,7 @@
 #include "EmailAddr.h"
 
 //👋    
-Hi(); auto I = std::make_shared<GithubRef>("@nbence08");  
+Hi(); auto I = std::make_shared\<GithubRef\>("@nbence08");  
 //👀    
 std::vector\<std::string\> interests = {"OpenGL", "C++", "Java", "Graphical Programming", "IT Security"};   
 //📫    
